@@ -1,0 +1,42 @@
+[
+  {
+    "problem": "password reset",
+    "solution": "STEP 1: Go to https://portal.company.com/reset\nSTEP 2: Enter your work email\nSTEP 3: Check your inbox for the reset link (check spam folder)\nSTEP 4: Click the link and create a new password\n\nPassword Requirements:\n- At least 8 characters\n- 1 uppercase letter\n- 1 number\n- 1 special character (!@#$%)\n\nIf you still can't reset, contact IT at ext. 5500",
+    "category": "authentication"
+  },
+  {
+    "problem": "vpn",
+    "solution": "VPN CONNECTION STEPS:\n\nSTEP 1: Download Cisco AnyConnect from IT Portal\nSTEP 2: Install and open the application\nSTEP 3: Server address: vpn.company.com\nSTEP 4: Username: Your AD username\nSTEP 5: Password: Your regular login password\n\nTROUBLESHOOTING:\n- Ensure you're connected to internet\n- Check if firewall allows port 443\n- Try disconnecting and reconnecting\n- Restart your computer\n\nStill not working? Call IT: ext. 5500",
+    "category": "network"
+  },
+  {
+    "problem": "printer",
+    "solution": "PRINTER TROUBLESHOOTING:\n\nSTEP 1: Check if printer is powered on and has paper\nSTEP 2: Open Control Panel > Devices and Printers\nSTEP 3: Right-click your printer > 'See what's printing'\nSTEP 4: Click 'Printer' menu > 'Cancel All Documents'\nSTEP 5: Restart Print Spooler:\n   - Press Win+R\n   - Type 'services.msc'\n   - Find 'Print Spooler'\n   - Right-click > Restart\n\nSTEP 6: If still not working, remove and re-add printer from IT Portal\n\nNeed help? IT ext. 5500",
+    "category": "hardware"
+  },
+  {
+    "problem": "email",
+    "solution": "EMAIL NOT SYNCING FIX:\n\nSTEP 1: Check your internet connection\nSTEP 2: Close and reopen Outlook\nSTEP 3: Verify your credentials:\n   - File > Account Settings > Account Settings\n   - Select your account > Change\n   - Re-enter password\n\nSTEP 4: Clear Outlook cache:\n   - Close Outlook\n   - Delete files in: C:\\Users\\YourName\\AppData\\Local\\Microsoft\\Outlook\n\nSTEP 5: Restart computer\n\nSTEP 6: If still failing, recreate email profile:\n   - Control Panel > Mail > Show Profiles > Add\n\nContact IT if needed: ext. 5500",
+    "category": "email"
+  },
+  {
+    "problem": "slow",
+    "solution": "SLOW COMPUTER SOLUTIONS:\n\nIMMEDIATE FIXES:\nSTEP 1: Close unused programs and browser tabs\nSTEP 2: Press Ctrl+Shift+Esc to open Task Manager\nSTEP 3: Check which programs use high CPU/Memory\nSTEP 4: Right-click and 'End Task' on unnecessary programs\n\nCLEANUP:\nSTEP 5: Delete temporary files:\n   - Press Win+R\n   - Type '%temp%' and press Enter\n   - Select all (Ctrl+A) and delete\n\nSTEP 6: Restart your computer\n\nSTEP 7: Run Windows Disk Cleanup:\n   - Search 'Disk Cleanup' in Start menu\n   - Select C: drive\n   - Check all boxes and click OK\n\nIf still slow after 24 hours, contact IT: ext. 5500",
+    "category": "performance"
+  },
+  {
+    "problem": "internet",
+    "solution": "INTERNET CONNECTION ISSUES:\n\nSTEP 1: Check if Wi-Fi is turned on\nSTEP 2: Disconnect and reconnect to Wi-Fi network\nSTEP 3: Restart your router:\n   - Unplug power cable\n   - Wait 30 seconds\n   - Plug back in\n   - Wait 2 minutes for full restart\n\nSTEP 4: Reset network settings:\n   - Open Command Prompt as Administrator\n   - Type: ipconfig /release\n   - Type: ipconfig /renew\n   - Type: ipconfig /flushdns\n\nSTEP 5: Restart computer\n\nNetwork still down? IT: ext. 5500",
+    "category": "network"
+  },
+  {
+    "problem": "software install",
+    "solution": "SOFTWARE INSTALLATION:\n\nAPPROVED SOFTWARE:\nSTEP 1: Go to IT Self-Service Portal\nSTEP 2: Browse 'Software Catalog'\nSTEP 3: Select software you need\nSTEP 4: Click 'Request Install'\nSTEP 5: Wait for automatic installation (10-30 mins)\n\nCUSTOM SOFTWARE:\nIf you need software not in catalog:\nSTEP 1: Submit ticket with software name and business justification\nSTEP 2: Wait for manager approval\nSTEP 3: IT will install after security review (2-5 days)\n\nUrgent install? Call IT: ext. 5500",
+    "category": "software"
+  },
+  {
+    "problem": "screen",
+    "solution": "MONITOR/DISPLAY ISSUES:\n\nBLANK SCREEN:\nSTEP 1: Check monitor power cable is plugged in\nSTEP 2: Check video cable (HDMI/DisplayPort) connection\nSTEP 3: Try different video cable if available\nSTEP 4: Press Windows key + P, select 'Duplicate' or 'Extend'\n\nWRONG RESOLUTION:\nSTEP 1: Right-click desktop > Display Settings\nSTEP 2: Scroll to 'Display resolution'\nSTEP 3: Select recommended resolution\n\nMULTIPLE MONITORS:\nSTEP 1: Windows key + P\nSTEP 2: Select 'Extend' for dual monitors\n\nHardware issue? IT: ext. 5500",
+    "category": "hardware"
+  }
+]
