@@ -2,10 +2,6 @@
 
 An AI-powered IT support assistant that automatically resolves common IT issues, reducing support ticket volume by 70% and resolution time from 4 hours to 30 seconds.
 
-![IT Helpdesk Demo](https://img.shields.io/badge/Status-Live-success)
-![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black)
-![License](https://img.shields.io/badge/License-MIT-blue)
-
 ## 🎯 Problem Statement
 
 Companies waste **$200K/year** on repetitive IT support tickets. Employees struggle with:
@@ -67,16 +63,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎨 Screenshots
-
-### Main Interface
-![Main Chat Interface](screenshot1.png)
-
-### Quick Solutions Sidebar
-![Sidebar](screenshot2.png)
-
-### Ticket Creation
-![Ticket Form](screenshot3.png)
 
 ## 📝 How It Works
 
